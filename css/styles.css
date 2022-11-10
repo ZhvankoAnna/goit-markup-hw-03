@@ -35,6 +35,8 @@ ul {
 /* Global styles */
 
 body {
+  margin: 0;
+
   color: var(--primary-text-color);
   background-color: var(--white-color);
   font-family: Roboto, sans-serif;
@@ -130,7 +132,7 @@ body {
 /* Шапка */
 
 .page-header {
-  min-height: 80px;
+  height: 80px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -273,6 +275,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
+  background-color: var(--white-color);
   text-align: center;
 }
 
